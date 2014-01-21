@@ -11,7 +11,15 @@ class RankingController < ApplicationController
       paths = ft.split('-').map{ |s| s.split('/') }
       options.concat(paths[0].product(*paths[1..-1]))
     end
-    @dists = options
+    
+    @results = []
+    options.each do |o|
+      result = {}
+      result[:dist] = Random.rand #get_circle_dist(o)
+      result[:route] = o.join('-')
+      @results << result
+    end
+    @results.sort_by!{ |r| r[:dist] }.reverse!
 
   end
 end

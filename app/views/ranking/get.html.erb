@@ -1,4 +1,13 @@
 <%#= debug params %>
-<% @dists.each do |d| %>
-<%= d %><br/>
-<% end %>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @results.each do |r| %>
+    <tr>
+      <td><%= r[:route] %></td>
+      <td><%= r[:dist] %></td>
+    </tr>
+  <% end %>
+</table>
