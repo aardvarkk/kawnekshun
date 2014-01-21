@@ -17,5 +17,3 @@ development:
   encoding: unicode
   database: kawnekshun_development
   pool: 5
-  username: kawnekshun
-  password:
