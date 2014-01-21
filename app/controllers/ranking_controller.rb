@@ -11,7 +11,7 @@ class RankingController < ApplicationController
       paths = ft.split('-').map{ |s| s.split('/') }
       options.concat(paths[0].product(*paths[1..-1]))
     end
-    # throw options
+    @dists = options
 
   end
 end
