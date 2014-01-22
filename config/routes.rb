@@ -1,7 +1,9 @@
 Kawnekshun::Application.routes.draw do
+  
   resources :airports
 
-  get 'ranking', to: 'ranking#get'
+  get 'ranking', to: 'ranking#results'
+  post 'ranking/ask', to: 'ranking#ask'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
