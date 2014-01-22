@@ -3,12 +3,14 @@
   <table>
     <tr>
       <th>Route</th>
-      <th>Distance (mi)</th>
+      <th>O/W Distance (mi)</th>
+      <th>R/T Distance (mi)</th>
     </tr>
     <% @results.each do |r| %>
       <tr>
         <td><%= r[:route] %></td>
         <td><%= r[:dist] %></td>
+        <td><%= 2*r[:dist] %></td>
       </tr>
     <% end %>
   </table>
