@@ -16,6 +16,11 @@ class RankingController < ApplicationController
   def transform_kvs(routing_rules)
     # Go through each FROM-TO and add it to the array
     routes = []
+
+    # Replace airline codes with simple dashes
+    routing_rules.gsub!(/-((\w{2})\/*\s*)+-/, '-')
+
+    # Find actual airports
     routing_rules.scan(/FROM-TO\s+([\s\S]+?)\*/) { |m| routes << m.first.gsub(/\s+/, '') }
 
     # Join the array together
@@ -38,10 +43,23 @@ class RankingController < ApplicationController
       paths = ft.split('-').map{ |s| s.split('/') }
       options.concat(paths[0].product(*paths[1..-1]))
     end
-    
+   
+    # Eliminate duplication within routes
+    # Example: YTO-YTO-STO
+    options.map! { |o| o.chunk { |c| c }.map(&:first) }
+
+    # Eliminate identical routes
+    # Example:
+    # YTO-STO
+    # YTO-STO
+    options.uniq!
+
     @results = []
     options.each do |o|
       result = {}
+
+      # Eliminate anything with two letters (these are airlines!)
+      o.delete_if { |x| x.length < 3 }
 
       begin
         result[:dist] = get_distance(o)

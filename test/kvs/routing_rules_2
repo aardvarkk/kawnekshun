@@ -1,0 +1,19 @@
+[KVS Availability Tool 7.3.3 - Routing Rules: YTO-STO/9W/H2HXRSEC/455 CAD]
+
+YTOSTO-9W 22JAN14      *RULE DISPLAY*     TARIFF 0101 RULE CA02 
+                          
+   -FARE BASIS         CAD       NUC                PTC  FT  GI 
+H2HXRSEC        R    450.00    422.41               ADT  EX  AT 
+H2HXRSEC/CH25   R    338.00    316.81               CNN  EX  AT 
+H2HXRSEC/CH00   R    450.00    422.41               UNN  EX  AT 
+H2HXRSEC/CH25   R    338.00    316.81               INS  EX  AT 
+H2HXRSEC/IN90   R     45.00     42.24               INF  EX  AT 
+
+BOOKING CODES        H                                          
+
+INDUSTRY FARE TYPE - XEX - REGULAR EXCURSION                    
+MPM - AT  4712 VIA NORTH ATLANTIC
+
+---------------------------------------------------------------
+
+ROUTING  100 FROM-TO  YTO-BRU-SN/SK-STO*                        

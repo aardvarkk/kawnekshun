@@ -1,0 +1,112 @@
+[KVS Availability Tool 7.3.3 - Routing Rules: YTO-STO/SN/KHXRCT84/473 CAD]
+
+YTOSTO-SN 22JAN14      *RULE DISPLAY*     TARIFF 0101 RULE E700 
+                          
+   -FARE BASIS         CAD       NUC                PTC  FT  GI 
+KHXRCT84        R    468.00    439.31               ADT  EX  AT 
+KHXRCT84/CH25   R    351.00    329.48               CNN  EX  AT 
+KHXRCT84/CH25   R    351.00    329.48               INS  EX  AT 
+KHXRCT84/IN90   R     47.00     43.93               INF  EX  AT 
+KHXRCT84/CH25   R    351.00    329.48               UNN  EX  AT 
+
+BOOKING CODES        K                                          
+
+INDUSTRY FARE TYPE - XEX - REGULAR EXCURSION                    
+MPM - AT  4712 VIA NORTH ATLANTIC
+
+---------------------------------------------------------------
+
+ROUTING 1404 FROM-TO  YTO-AC/LH/UA/CO/SN-BOS/CHI/NYC/WAS/       
+                      CLE/EWR-BRU-SN/LH/OS/LX/OV/BT-STO*        
+             FROM-TO  YTO-AC/LH/UA/CO/SN-YHZ/YTO/YMQ-AC/LH/     
+                      UA/CO/SN-YTO/YOW/YMQ-BRU-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-AC/LH/UA/CO/SN-YMQ/YTO/NYC/EWR/       
+                      BOS/PHL/WAS-BRU-SN/LH/OS/LX/OV/BT         
+                      -STO*                                     
+             FROM-TO  YTO-AC/LH/UA/CO/SN-YOW/YMQ/YTO-BRU        
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-AC/LH/UA/CO/SN-YTO/YMQ/YOW-BRU        
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-AC/LH/UA/CO/SN-YTO/YOW/YMQ-BRU        
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-BOS/       
+                      CHI/NYC/WAS/CLE/EWR/CHI/NYC/WAS/CLE/      
+                      EWR-FRA/MUC/ZRH/VIE/GVA-BRU-SN/LH/OS/     
+                      LX/OV/BT-STO*                             
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-YHZ/       
+                      YTO/YMQ/YTO/YMQ-AC/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YTO/YOW/YMQ/YOW/YMQ-FRA/MUC/        
+                      ZRH/VIE/GVA-BRU-SN/LH/OS/LX/OV/BT         
+                      -STO*                                     
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-YMQ/       
+                      YTO/NYC/EWR/BOS/PHL/WAS/YTO/NYC/EWR/      
+                      BOS/PHL/WAS-FRA/MUC/ZRH/VIE/GVA-BRU       
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-YOW/       
+                      YMQ/YTO/YMQ/YTO-FRA/MUC/ZRH/VIE/GVA       
+                      -BRU-SN/LH/OS/LX/OV/BT-STO*               
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-YTO/       
+                      YMQ/YOW/YMQ/YOW-FRA/MUC/ZRH/VIE/GVA       
+                      -BRU-SN/LH/OS/LX/OV/BT-STO*               
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN-YTO/       
+                      YOW/YMQ/YOW/YMQ-FRA/MUC/ZRH/VIE/GVA       
+                      -BRU-SN/LH/OS/LX/OV/BT-STO*               
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-BOS/CHI/NYC/WAS/CLE/EWR/CHI/        
+                      NYC/WAS/CLE/EWR/CHI/NYC/WAS/CLE/EWR       
+                      -BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YHZ/YTO/YMQ/YTO/YMQ/*               
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YMQ/YTO/NYC/EWR/BOS/PHL/WAS/        
+                      YTO/NYC/EWR/BOS/PHL/WAS/YTO/NYC/EWR/      
+                      BOS/PHL/WAS-BRU-FRA/MUC/ZRH/VIE/GVA       
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YOW/YMQ/YTO/YMQ/YTO/YMQ/YTO         
+                      -BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YTO/YMQ/YOW/YMQ/YOW/YMQ/YOW         
+                      -BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-AC/LH/UA/CO/SN/LH/UA/CO/SN/LH/UA/     
+                      CO/SN-YTO/YOW/YMQ/YOW/YMQ/YOW/YMQ         
+                      -BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-AC/UA/LH/CO/SN-PHL/DTT-BRU-SN/LH/     
+                      OS/LX/OV/BT-STO*                          
+             FROM-TO  YTO-AC/UA/LH/CO/SN/UA/LH/CO/SN-PHL/       
+                      DTT/DTT-FRA/MUC/ZRH/VIE/GVA-BRU-SN/       
+                      LH/OS/LX/OV/BT-STO*                       
+             FROM-TO  YTO-AC/UA/LH/CO/SN/UA/LH/CO/SN/UA/LH/     
+                      CO/SN-PHL/DTT/DTT/DTT-BRU-FRA/MUC/        
+                      ZRH/VIE/GVA-SN/LH/OS/LX/OV/BT-STO*        
+             FROM-TO  YTO-CO/LH/UA/AC/SN-YYT-BRU-SN/LH/OS/      
+                      LX/OV/BT-STO*                             
+             FROM-TO  YTO-CO/LH/UA/AC/SN/LH/UA/AC/SN-YYT        
+                      -FRA/MUC/ZRH/VIE/GVA-BRU-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-CO/LH/UA/AC/SN/LH/UA/AC/SN/LH/UA/     
+                      AC/SN-YYT-BRU-FRA/MUC/ZRH/VIE/GVA         
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-LH/AC/CO/UA/SN-YTO/YOW/YMQ-BRU        
+                      -SN/LH/OS/LX/OV/BT-STO*                   
+             FROM-TO  YTO-LH/AC/CO/UA/SN/AC/CO/UA/SN-YTO/       
+                      YOW/YMQ/YOW/YMQ-FRA/MUC/ZRH/VIE/GVA       
+                      -BRU-SN/LH/OS/LX/OV/BT-STO*               
+             FROM-TO  YTO-LH/AC/CO/UA/SN/AC/CO/UA/SN/AC/CO/     
+                      UA/SN-YTO/YOW/YMQ/YOW/YMQ/YOW/YMQ         
+                      -BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/LX/     
+                      OV/BT-STO*                                
+             FROM-TO  YTO-BRU-SN/LH/OS/LX/OV/BT-STO*            
+             FROM-TO  YTO-BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/     
+                      LX/OV/BT-STO*                             
+             FROM-TO  YTO-FRA/MUC/ZRH/VIE/GVA-BRU-SN/LH/OS/     
+                      LX/OV/BT-STO*                             
+             FROM-TO  YTO/YMQ-AC/LH/UA/CO/SN/LH/UA/CO/SN/       
+                      LH/UA/CO/SN-YTO/YOW/YMQ/YOW/YMQ/YOW/      
+                      YMQ-BRU-FRA/MUC/ZRH/VIE/GVA-SN/LH/OS/     
+                      LX/OV/BT-STO*                             
