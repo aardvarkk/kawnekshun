@@ -51,4 +51,3 @@ end
 
 gem 'geokit'
 gem 'geokit-rails'
-gem 'rails_serve_static_assets'
