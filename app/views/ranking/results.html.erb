@@ -21,7 +21,7 @@
   <dt>KVS Routing Rules</dt><dd>Paste contents</dd>
 </dl>
 <%= link_to 'List of Supported Airports', ranking_supported_path %>
-<%= form_tag(ranking_ask_path) do %>
+<%= form_tag(ranking_path) do %>
 <%= text_area_tag :routes, @routes, cols: '64', rows: '16' %><br/>
 <%= submit_tag 'Submit' %>
 <% end %>
