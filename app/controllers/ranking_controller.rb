@@ -1,8 +1,22 @@
 class RankingController < ApplicationController
 
+  def get_distance(code_str)
+    dist = 0
+    prv = Airport.find_by_code(code_str.first)
+    code_str[1..-1].each do |c|
+      cur = Airport.find_by_code(c)
+      throw prv if prv.blank?
+      throw cur if cur.blank?
+      dist += cur.distance_to(prv)
+      prv = cur
+    end
+    return dist.round
+  end
+
   # YTO-ATL-CVG/DTT/MEM/MSP/SLC/LAX/SAN/PDX/SFO/SEA-HNL_YYZ-YUL/YOW-YHZ
   def get
-    routes = params[:routes]
+    routes = params[:routes] || ''
+    routes.upcase!
 
     options = []
 
@@ -15,7 +29,7 @@ class RankingController < ApplicationController
     @results = []
     options.each do |o|
       result = {}
-      result[:dist] = Random.rand #get_circle_dist(o)
+      result[:dist] = get_distance(o)
       result[:route] = o.join('-')
       @results << result
     end

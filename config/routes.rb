@@ -1,4 +1,6 @@
 Kawnekshun::Application.routes.draw do
+  resources :airports
+
   get 'ranking', to: 'ranking#get'
 
   # The priority is based upon order of creation: first created -> highest priority.

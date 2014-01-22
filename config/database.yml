@@ -46,13 +46,9 @@ test:
   encoding: unicode
   database: kawnekshun_test
   pool: 5
-  username: kawnekshun
-  password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: kawnekshun_production
   pool: 5
-  username: kawnekshun
-  password:
