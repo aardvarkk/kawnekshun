@@ -57,4 +57,8 @@ class RankingController < ApplicationController
     render 'results'
   end
 
+  def supported
+    @supported = Airport.all
+  end
+
 end

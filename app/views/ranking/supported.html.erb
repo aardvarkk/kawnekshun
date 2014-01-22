@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>Code</th>
+    <th>Name</th>
+  </tr>
+  <% @supported.each do |s| %>
+  <tr>
+    <td><%= s.code %></td>
+    <td><%= s.name %></td>
+  </tr>
+  <% end %>
+</table>
+<%= link_to 'Back', ranking_path %>

@@ -20,7 +20,8 @@
   <dt>Multiple Routes (Separate with _)</dt><dd>YTO-LAX/SAN/SFO/SEA-HNL_YYZ-YUL/YOW-YHZ</dd>
   <dt>KVS Routing Rules</dt><dd>Paste contents</dd>
 </dl>
+<%= link_to 'List of Supported Airports', ranking_supported_path %>
 <%= form_tag(ranking_ask_path) do %>
 <%= text_area_tag :routes, @routes, cols: '64', rows: '16' %><br/>
-<%= submit_tag('Submit') %>
+<%= submit_tag 'Submit' %>
 <% end %>
