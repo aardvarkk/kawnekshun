@@ -1,0 +1,47 @@
+[KVS Availability Tool 7.3.3 - Routing Rules: YTO-HNL/DL/VA21A0SD/457 CAD]
+
+YTOHNL-DL 21JAN14      *RULE DISPLAY*     TARIFF 0013 RULE 9007 
+   -FARE BASIS         CAD       TAX       TOTAL    PTC  FT     
+VA21A0SD             256.00      0.00      256.00   ADT  EX     
+VA21A0SD/IN00          0.00      0.00        0.00   INF  EX     
+VA21A0SD             256.00      0.00      256.00   INS  EX     
+
+BOOKING CODES        V                                          
+
+INDUSTRY FARE TYPE - SIP - INSTANT PURCHASE
+
+---------------------------------------------------------------
+
+ROUTING  300 FROM-TO  YTO-ATL-CVG/DTT/MEM/MSP/SLC/LAX/SAN/      
+                      PDX/SFO/SEA-HNL*                          
+             FROM-TO  YTO-CVG-ATL/DTT/MEM/MSP/SLC/LAX/SEA/      
+                      PDX/SAN/SFO-HNL*                          
+             FROM-TO  YTO-CVG-HNL*                              
+             FROM-TO  YTO-DTT-ATL/CVG/MEM/MSP/SLC/LAX/SEA/      
+                      PDX/SAN/SFO-HNL*                          
+             FROM-TO  YTO-DTT-HNL*                              
+             FROM-TO  YTO-HNL*                                  
+             FROM-TO  YTO-HNL-HNL*                              
+             FROM-TO  YTO-MEM-ATL/CVG/DTT/MSP/SLC/LAX/SAN/      
+                      PDX/SFO/SEA-HNL*                          
+             FROM-TO  YTO-MEM-HNL*                              
+             FROM-TO  YTO-MSP-ATL/CVG/DTT/MEM/SLC/LAX/SEA/      
+                      PDX/SAN/SFO-HNL*                          
+             FROM-TO  YTO-MSP-HNL*                              
+             FROM-TO  YTO-NYC-LAX/SEA-HNL*                      
+             FROM-TO  YTO-NYC/BOS/LAX/WAS/RDU/SFO/SAN/SEA/      
+                      PDX/YTO/YYC/YEA/YVR/YWG/YHZ-HNL*          
+             FROM-TO  YTO-NYC/BOS/LAX/WAS/RDU/SFO/SAN/SEA/      
+                      PDX/YTO/YYC/YEA/YVR/YWG/YHZ-HNL-HNL*      
+             FROM-TO  YTO-NYC/BOS/WAS/YHZ-ATL-HNL*              
+             FROM-TO  YTO-NYC/BOS/WAS/YTO/YHZ-CVG-HNL*          
+             FROM-TO  YTO-NYC/BOS/WAS/YTO/YHZ-DTT-HNL*          
+             FROM-TO  YTO-NYC/BOS/WAS/YTO/YHZ-MEM-HNL*          
+             FROM-TO  YTO-NYC/BOS/WAS/YTO/YWG/YHZ-MSP-HNL*      
+             FROM-TO  YTO-NYC/BOS/WAS/YTO/YYC/YWG/YHZ-SLC       
+                      -HNL*                                     
+             FROM-TO  YTO-SLC-HNL*                              
+             FROM-TO  YTO-SLC-MEM/MSP/LAX/SEA/PDX/SAN/SFO       
+                      -HNL*                                     
+             FROM-TO  YTO-SLC/MSP/DTT/CVG/MEM/ATL-HNL*          
+             FROM-TO  YTO-SLC/MSP/DTT/CVG/MEM/ATL-HNL-HNL*      
