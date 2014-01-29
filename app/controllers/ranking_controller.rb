@@ -46,13 +46,15 @@ class RankingController < ApplicationController
    
     # Eliminate duplication within routes
     # Example: YTO-YTO-STO
-    options.map! { |o| o.chunk { |c| c }.map(&:first) }
+    # Appears to take more time than it's worth
+    # options.map! { |o| o.chunk { |c| c }.map(&:first) }
 
     # Eliminate identical routes
     # Example:
     # YTO-STO
     # YTO-STO
-    options.uniq!
+    # Appears to take more time than it's worth
+    # options.uniq!
 
     @results = []
     options.each do |o|
