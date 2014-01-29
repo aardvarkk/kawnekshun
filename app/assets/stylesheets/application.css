@@ -19,3 +19,7 @@ dt {
 .flash-error {
   color: #f00;
 }
+
+.route {
+  font-family: monospace;
+}

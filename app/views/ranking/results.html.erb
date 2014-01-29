@@ -8,7 +8,7 @@
     </tr>
     <% @results.each do |r| %>
       <tr>
-        <td><%= r[:route] %></td>
+        <td><span class="route"><%= r[:route] %></span></td>
         <td><%= r[:dist] %></td>
         <td><%= 2*r[:dist] %></td>
       </tr>
